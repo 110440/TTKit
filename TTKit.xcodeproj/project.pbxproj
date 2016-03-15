@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42F24071C9653040048273E /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F24061C9653040048273E /* Proposer.swift */; };
+		D4922AF31C9663ED002E2D5A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4922AF21C9663ED002E2D5A /* DesignableButton.swift */; };
 		D4B157B51C95468700FE98EA /* UIApplication+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B41C95468700FE98EA /* UIApplication+TT.swift */; };
 		D4B157B71C954C4F00FE98EA /* UIColor+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B61C954C4F00FE98EA /* UIColor+TT.swift */; };
 		D4B157B91C95537800FE98EA /* UIDevice+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B81C95537800FE98EA /* UIDevice+TT.swift */; };
@@ -36,6 +38,8 @@
 		D4F6F42C1C959A310060D4CC /* CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6F4291C959A310060D4CC /* CirCleView.swift */; };
 		D4F6F42D1C959A310060D4CC /* TTPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6F42B1C959A310060D4CC /* TTPagingScrollView.swift */; };
 		D4F6F42F1C959A7C0060D4CC /* NSTimer+CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6F42E1C959A7C0060D4CC /* NSTimer+CirCleView.swift */; };
+		D4F810021C9841FF0071C794 /* TTAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F810001C9841FF0071C794 /* TTAnimate.swift */; };
+		D4F810031C9841FF0071C794 /* UIView+TTAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F810011C9841FF0071C794 /* UIView+TTAnimate.swift */; };
 		D4F868BB1C7D509A0046D723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F868BA1C7D509A0046D723 /* AppDelegate.swift */; };
 		D4F868BD1C7D509A0046D723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F868BC1C7D509A0046D723 /* ViewController.swift */; };
 		D4F868C01C7D509A0046D723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F868BE1C7D509A0046D723 /* Main.storyboard */; };
@@ -83,6 +87,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D42F24061C9653040048273E /* Proposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposer.swift; sourceTree = "<group>"; };
+		D4922AF21C9663ED002E2D5A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		D4B157B41C95468700FE98EA /* UIApplication+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TT.swift"; sourceTree = "<group>"; };
 		D4B157B61C954C4F00FE98EA /* UIColor+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TT.swift"; sourceTree = "<group>"; };
 		D4B157B81C95537800FE98EA /* UIDevice+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+TT.swift"; sourceTree = "<group>"; };
@@ -113,6 +119,8 @@
 		D4F6F4291C959A310060D4CC /* CirCleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirCleView.swift; sourceTree = "<group>"; };
 		D4F6F42B1C959A310060D4CC /* TTPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTPagingScrollView.swift; sourceTree = "<group>"; };
 		D4F6F42E1C959A7C0060D4CC /* NSTimer+CirCleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+CirCleView.swift"; sourceTree = "<group>"; };
+		D4F810001C9841FF0071C794 /* TTAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTAnimate.swift; sourceTree = "<group>"; };
+		D4F810011C9841FF0071C794 /* UIView+TTAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TTAnimate.swift"; sourceTree = "<group>"; };
 		D4F868B71C7D509A0046D723 /* TTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F868BA1C7D509A0046D723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F868BC1C7D509A0046D723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +180,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42F24051C9653040048273E /* Proposer */ = {
+			isa = PBXGroup;
+			children = (
+				D42F24061C9653040048273E /* Proposer.swift */,
+			);
+			path = Proposer;
+			sourceTree = "<group>";
+		};
+		D4922AF11C9663ED002E2D5A /* DesignableUI */ = {
+			isa = PBXGroup;
+			children = (
+				D4922AF21C9663ED002E2D5A /* DesignableButton.swift */,
+			);
+			path = DesignableUI;
+			sourceTree = "<group>";
+		};
 		D4B51A441C81C75E00B53FF9 /* ClosureKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +246,15 @@
 				D4F6F42B1C959A310060D4CC /* TTPagingScrollView.swift */,
 			);
 			path = TTPagingScrollView;
+			sourceTree = "<group>";
+		};
+		D4F80FFF1C9841FF0071C794 /* TTAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				D4F810001C9841FF0071C794 /* TTAnimate.swift */,
+				D4F810011C9841FF0071C794 /* UIView+TTAnimate.swift */,
+			);
+			path = TTAnimate;
 			sourceTree = "<group>";
 		};
 		D4F868AE1C7D509A0046D723 = {
@@ -334,6 +367,8 @@
 		D4F869201C7D51E50046D723 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				D4F80FFF1C9841FF0071C794 /* TTAnimate */,
+				D42F24051C9653040048273E /* Proposer */,
 				D4F6F4181C9599550060D4CC /* Locksmith-keychain */,
 				D4B51A441C81C75E00B53FF9 /* ClosureKit */,
 			);
@@ -351,6 +386,7 @@
 		D4F869491C7D54C40046D723 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				D4922AF11C9663ED002E2D5A /* DesignableUI */,
 				D4F6F4281C959A310060D4CC /* CirCleView */,
 				D4F6F42A1C959A310060D4CC /* TTPagingScrollView */,
 				D4F8694A1C7D56770046D723 /* FormKit */,
@@ -532,6 +568,7 @@
 				D4F869851C7D5D000046D723 /* WeChatSettingController.swift in Sources */,
 				D4B51A531C81C75E00B53FF9 /* AVSpeechSynthesizer+ClosureKit.swift in Sources */,
 				D4F8697A1C7D56770046D723 /* FormTextInputCell.swift in Sources */,
+				D4F810031C9841FF0071C794 /* UIView+TTAnimate.swift in Sources */,
 				D4F8696B1C7D56770046D723 /* FormSection.swift in Sources */,
 				D4F869771C7D56770046D723 /* FormSegmentedCell.swift in Sources */,
 				D4F6F4231C9599550060D4CC /* LocksmithAccessibleOption.swift in Sources */,
@@ -543,11 +580,13 @@
 				D4F869761C7D56770046D723 /* FormOptionTextCell.swift in Sources */,
 				D4F868BD1C7D509A0046D723 /* ViewController.swift in Sources */,
 				D4B157B51C95468700FE98EA /* UIApplication+TT.swift in Sources */,
+				D4922AF31C9663ED002E2D5A /* DesignableButton.swift in Sources */,
 				D4B51A5E1C81C75E00B53FF9 /* UIWebView+ClosureKit.swift in Sources */,
 				D4F868BB1C7D509A0046D723 /* AppDelegate.swift in Sources */,
 				D4B51A591C81C75E00B53FF9 /* NSTimer+ClosureKit.swift in Sources */,
 				D4F869211C7D51E50046D723 /* NSArray+TS.swift in Sources */,
 				D4F869671C7D56770046D723 /* FormBuilder.swift in Sources */,
+				D4F810021C9841FF0071C794 /* TTAnimate.swift in Sources */,
 				D4B51A5A1C81C75E00B53FF9 /* UIBarButtonItem+ClosureKit.swift in Sources */,
 				D4F8697B1C7D56770046D723 /* TestNibCell.swift in Sources */,
 				D4F869721C7D56770046D723 /* FormButtonCell.swift in Sources */,
@@ -583,6 +622,7 @@
 				D4F869701C7D56770046D723 /* FormViewController.swift in Sources */,
 				D4F869711C7D56770046D723 /* FormBaseCell.swift in Sources */,
 				D4F869781C7D56770046D723 /* FormSwicthCell.swift in Sources */,
+				D42F24071C9653040048273E /* Proposer.swift in Sources */,
 				D4B157B71C954C4F00FE98EA /* UIColor+TT.swift in Sources */,
 				D4F6F42C1C959A310060D4CC /* CirCleView.swift in Sources */,
 				D4F869751C7D56770046D723 /* FormLabelCell.swift in Sources */,
