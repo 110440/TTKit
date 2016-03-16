@@ -25,6 +25,13 @@ import UIKit
         }
     }
     
+    @IBInspectable public var colrForDisabled:UIColor = UIColor.darkGrayColor() {
+        didSet{
+            let image = UIImage.imageWithColor(colrForDisabled, size:CGSize(width: 1, height: 1) )
+            self.setBackgroundImage(image, forState: .Disabled)
+        }
+    }
+    
     @IBInspectable public var borderColor: UIColor = UIColor.clearColor() {
         didSet {
             layer.borderColor = borderColor.CGColor
