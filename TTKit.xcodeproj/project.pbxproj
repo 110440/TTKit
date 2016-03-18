@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D407845C1C99641A00051471 /* UITabBarController+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407845B1C99641A00051471 /* UITabBarController+TT.swift */; };
 		D42F24071C9653040048273E /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F24061C9653040048273E /* Proposer.swift */; };
+		D472181B1C9BDC9F004E88FA /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472181A1C9BDC9F004E88FA /* String+MD5.swift */; };
 		D4922AF31C9663ED002E2D5A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4922AF21C9663ED002E2D5A /* DesignableButton.swift */; };
 		D4B157B51C95468700FE98EA /* UIApplication+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B41C95468700FE98EA /* UIApplication+TT.swift */; };
 		D4B157B71C954C4F00FE98EA /* UIColor+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B61C954C4F00FE98EA /* UIColor+TT.swift */; };
@@ -96,6 +97,7 @@
 /* Begin PBXFileReference section */
 		D407845B1C99641A00051471 /* UITabBarController+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+TT.swift"; sourceTree = "<group>"; };
 		D42F24061C9653040048273E /* Proposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposer.swift; sourceTree = "<group>"; };
+		D472181A1C9BDC9F004E88FA /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		D4922AF21C9663ED002E2D5A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		D4B157B41C95468700FE98EA /* UIApplication+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TT.swift"; sourceTree = "<group>"; };
 		D4B157B61C954C4F00FE98EA /* UIColor+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TT.swift"; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 		D4F868E81C7D51E50046D723 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				D472181A1C9BDC9F004E88FA /* String+MD5.swift */,
 				D4F868E91C7D51E50046D723 /* Float+TS.swift */,
 			);
 			path = Swift;
@@ -652,6 +655,7 @@
 				D4F8696A1C7D56770046D723 /* FormProtocol.swift in Sources */,
 				D4B51A551C81C75E00B53FF9 /* CLLocationManager+ClosureKit.swift in Sources */,
 				D4CBEB0A1C991523002EDE45 /* LocalNotifycation.swift in Sources */,
+				D472181B1C9BDC9F004E88FA /* String+MD5.swift in Sources */,
 				D4EF61BA1C9BB9C20036D764 /* ImageViewerPresentTransition.swift in Sources */,
 				D4F869241C7D51E50046D723 /* NSNotificationCenter+TS.swift in Sources */,
 				D4F869261C7D51E50046D723 /* NSTimer+TS.swift in Sources */,

@@ -72,7 +72,6 @@ class TTImageViewerController : UIViewController ,UICollectionViewDataSource,UIC
         self.view.backgroundColor = UIColor.blackColor()
         self.collectionView.contentOffset = CGPoint(x: pageWidth * CGFloat(self.curCellIndexPath!.row), y: 0)
         self.collectionView.reloadData()
-        
     }
 
     //MARK:<UICollectionViewDataSource>
@@ -91,7 +90,7 @@ class TTImageViewerController : UIViewController ,UICollectionViewDataSource,UIC
 
         let item = self.imageItems[indexPath.row]
 
-        cell.setCellImage(item.thumbImageView.image!)
+        cell.setImageCellItem(item)
         
         cell.action = {
             self.curCellIndexPath = indexPath

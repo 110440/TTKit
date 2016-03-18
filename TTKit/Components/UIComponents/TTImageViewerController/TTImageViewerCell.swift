@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import Kingfisher
 
 let tt_pageSpace:CGFloat = 5
 
@@ -29,12 +30,17 @@ class TTImageViewerCell: UICollectionViewCell,UIScrollViewDelegate {
         return view
     }()
     
-    func setCellImage(image:UIImage){
-        
-        let frame = imageViewFrameForScaleByOriginSize(image.size)
+    func setImageCellItem(item:TTImageViewerItem){
+        let frame = imageViewFrameForScaleByOriginSize(item.originSize)
         self.imageView.frame = frame
         self.scrollView.contentSize = CGSize(width: frame.size.width, height: frame.size.height)
-        self.imageView.image = image
+        self.imageView.image = item.thumbImageView.image
+        /*
+        if let url = item.originURL{
+            self.imageView.kf_setImageWithURL(url, placeholderImage: item.thumbImageView.image)
+        }else{
+            self.imageView.image = item.thumbImageView.image
+        }*/
     }
     
     var action:(()->Void)?
