@@ -8,6 +8,8 @@
 
 import UIKit
 
+let tt_pageSpace:CGFloat = 5
+
 class TTImageViewerItem {
     var thumbImageView:UIImageView
     var originSize:CGSize
@@ -86,7 +88,6 @@ class TTImageViewerController : UIViewController ,UICollectionViewDataSource,UIC
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! TTImageViewerCell
-        cell.scrollView.zoomScale = 1
 
         let item = self.imageItems[indexPath.row]
 

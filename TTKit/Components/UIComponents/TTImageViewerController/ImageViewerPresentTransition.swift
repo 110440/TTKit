@@ -43,18 +43,18 @@ class ImageViewerPresentTransition: NSObject, UIViewControllerAnimatedTransition
         
         container.addSubview(snapshotView)
         
+        //tempView for frame
+        let rect = UIScreen.mainScreen().bounds
+        let tempView = TTImageViewerCell(frame: CGRect(x: 0, y: 0, width: rect.size.width+tt_pageSpace*2, height: rect.size.height))
+        tempView.scrollView.setImage(snapshotView.image!)
+            
         //动画
         toViewController.view.alpha = 0
         toViewController.collectionView.hidden = true
         
         UIView.animateWithDuration(self.duration, delay: 0, options: [.CurveEaseOut], animations:  {
             toViewController.view.alpha = 1
-            
-            //ScaleAspectFit
-            let originSize = toViewController.imageItems[curCellIndexPath!.row].originSize
-            var desFrame = imageViewFrameForScaleByOriginSize(originSize)
-            desFrame = TSCGRectFitWithContentMode(desFrame, size: originSize, mode: .ScaleAspectFit)
-            snapshotView.frame = desFrame
+            snapshotView.frame = tempView.scrollView.imageView.frame
             
         }) { (complate) -> Void in
             

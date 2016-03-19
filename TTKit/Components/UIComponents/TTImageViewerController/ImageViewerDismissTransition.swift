@@ -37,19 +37,16 @@ class ImageViewerDismissTransition: NSObject, UIViewControllerAnimatedTransition
         let desSnapshotView = fromViewController.imageItems[curCellIndexPath!.row].thumbImageView
         
         let imageCell = fromViewController.collectionView.cellForItemAtIndexPath(curCellIndexPath!) as! TTImageViewerCell
-        imageCell.imageView.clipsToBounds = desSnapshotView.clipsToBounds
-        imageCell.imageView.contentMode = desSnapshotView.contentMode
-        
-        let desFrame = TSCGRectFitWithContentMode(imageCell.imageView.frame, size:imageCell.imageView.image!.size, mode:desSnapshotView.contentMode)
-        
-        imageCell.imageView.frame = desFrame
+        imageCell.scrollView.imageView.clipsToBounds = desSnapshotView.clipsToBounds
+        imageCell.scrollView.imageView.contentMode = desSnapshotView.contentMode
         
         let frame = imageCell.scrollView.convertRect(desSnapshotView.frame, fromView: desSnapshotView.superview)
         
         UIView.animateWithDuration(self.duration, delay: 0, options: [.CurveEaseOut], animations: {
             
             fromViewController.view.backgroundColor = UIColor.clearColor()
-            imageCell.imageView.frame = frame
+            imageCell.scrollView.imageView.frame = frame
+            
         }) { (complate) -> Void in
             fromViewController.view.removeFromSuperview()
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled())

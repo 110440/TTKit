@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D407845C1C99641A00051471 /* UITabBarController+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407845B1C99641A00051471 /* UITabBarController+TT.swift */; };
 		D42F24071C9653040048273E /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F24061C9653040048273E /* Proposer.swift */; };
+		D46FF3991C9D8A2900F00BB0 /* ZoomImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FF3981C9D8A2900F00BB0 /* ZoomImageScrollView.swift */; };
 		D472181B1C9BDC9F004E88FA /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472181A1C9BDC9F004E88FA /* String+MD5.swift */; };
 		D4922AF31C9663ED002E2D5A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4922AF21C9663ED002E2D5A /* DesignableButton.swift */; };
 		D4B157B51C95468700FE98EA /* UIApplication+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B157B41C95468700FE98EA /* UIApplication+TT.swift */; };
@@ -92,11 +93,15 @@
 		D4F8697E1C7D56770046D723 /* KeyboardMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F869661C7D56770046D723 /* KeyboardMan.swift */; };
 		D4F869811C7D5A4C0046D723 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F869801C7D5A4C0046D723 /* WeChatViewController.swift */; };
 		D4F869851C7D5D000046D723 /* WeChatSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F869841C7D5D000046D723 /* WeChatSettingController.swift */; };
+		D4F86EE31C9C47DE00393830 /* ImageCropSelectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F86EE01C9C47DE00393830 /* ImageCropSelectHelper.swift */; };
+		D4F86EE41C9C47DE00393830 /* ImageCropSelectMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F86EE11C9C47DE00393830 /* ImageCropSelectMarkView.swift */; };
+		D4F86EE51C9C47DE00393830 /* ImageCropSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F86EE21C9C47DE00393830 /* ImageCropSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D407845B1C99641A00051471 /* UITabBarController+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+TT.swift"; sourceTree = "<group>"; };
 		D42F24061C9653040048273E /* Proposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposer.swift; sourceTree = "<group>"; };
+		D46FF3981C9D8A2900F00BB0 /* ZoomImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageScrollView.swift; sourceTree = "<group>"; };
 		D472181A1C9BDC9F004E88FA /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		D4922AF21C9663ED002E2D5A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		D4B157B41C95468700FE98EA /* UIApplication+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TT.swift"; sourceTree = "<group>"; };
@@ -183,6 +188,9 @@
 		D4F869661C7D56770046D723 /* KeyboardMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardMan.swift; sourceTree = "<group>"; };
 		D4F869801C7D5A4C0046D723 /* WeChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
 		D4F869841C7D5D000046D723 /* WeChatSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatSettingController.swift; sourceTree = "<group>"; };
+		D4F86EE01C9C47DE00393830 /* ImageCropSelectHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropSelectHelper.swift; sourceTree = "<group>"; };
+		D4F86EE11C9C47DE00393830 /* ImageCropSelectMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropSelectMarkView.swift; sourceTree = "<group>"; };
+		D4F86EE21C9C47DE00393830 /* ImageCropSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +243,7 @@
 		D4EF61B41C9BB9C20036D764 /* TTImageViewerController */ = {
 			isa = PBXGroup;
 			children = (
+				D46FF3981C9D8A2900F00BB0 /* ZoomImageScrollView.swift */,
 				D4EF61B51C9BB9C20036D764 /* ImageViewerDismissTransition.swift */,
 				D4EF61B61C9BB9C20036D764 /* ImageViewerPresentTransition.swift */,
 				D4EF61B71C9BB9C20036D764 /* TTImageViewerCell.swift */,
@@ -417,6 +426,7 @@
 		D4F869491C7D54C40046D723 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				D4F86EDF1C9C47DE00393830 /* ImageCropSelectController */,
 				D4EF61B41C9BB9C20036D764 /* TTImageViewerController */,
 				D4922AF11C9663ED002E2D5A /* DesignableUI */,
 				D4F6F4281C959A310060D4CC /* CirCleView */,
@@ -514,6 +524,16 @@
 			name = NetKit;
 			sourceTree = "<group>";
 		};
+		D4F86EDF1C9C47DE00393830 /* ImageCropSelectController */ = {
+			isa = PBXGroup;
+			children = (
+				D4F86EE01C9C47DE00393830 /* ImageCropSelectHelper.swift */,
+				D4F86EE11C9C47DE00393830 /* ImageCropSelectMarkView.swift */,
+				D4F86EE21C9C47DE00393830 /* ImageCropSelectViewController.swift */,
+			);
+			path = ImageCropSelectController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -599,6 +619,7 @@
 				D4F869791C7D56770046D723 /* FormTextFieldCell.swift in Sources */,
 				D4F869851C7D5D000046D723 /* WeChatSettingController.swift in Sources */,
 				D4B51A531C81C75E00B53FF9 /* AVSpeechSynthesizer+ClosureKit.swift in Sources */,
+				D4F86EE41C9C47DE00393830 /* ImageCropSelectMarkView.swift in Sources */,
 				D4F8697A1C7D56770046D723 /* FormTextInputCell.swift in Sources */,
 				D4F810031C9841FF0071C794 /* UIView+TTAnimate.swift in Sources */,
 				D4F8696B1C7D56770046D723 /* FormSection.swift in Sources */,
@@ -608,6 +629,7 @@
 				D4F869281C7D51E50046D723 /* CGPoint+TS.swift in Sources */,
 				D4B51A5B1C81C75E00B53FF9 /* UIControl+ClosureKit.swift in Sources */,
 				D4EF61BB1C9BB9C20036D764 /* TTImageViewerCell.swift in Sources */,
+				D4F86EE31C9C47DE00393830 /* ImageCropSelectHelper.swift in Sources */,
 				D4F8692B1C7D51E50046D723 /* TSCGUtilities.swift in Sources */,
 				D4B51A5D1C81C75E00B53FF9 /* UIImagePickerController+ClosureKit.swift in Sources */,
 				D4F869761C7D56770046D723 /* FormOptionTextCell.swift in Sources */,
@@ -640,6 +662,7 @@
 				D4B157BB1C955CFC00FE98EA /* UIScreen+TT.swift in Sources */,
 				D4B51A521C81C75E00B53FF9 /* AVAudioPlayer+ClosureKit.swift in Sources */,
 				D4EF61B91C9BB9C20036D764 /* ImageViewerDismissTransition.swift in Sources */,
+				D4F86EE51C9C47DE00393830 /* ImageCropSelectViewController.swift in Sources */,
 				D4F869731C7D56770046D723 /* FormCheckCell.swift in Sources */,
 				D4F869251C7D51E50046D723 /* NSString+TS.swift in Sources */,
 				D407845C1C99641A00051471 /* UITabBarController+TT.swift in Sources */,
@@ -659,6 +682,7 @@
 				D4EF61BA1C9BB9C20036D764 /* ImageViewerPresentTransition.swift in Sources */,
 				D4F869241C7D51E50046D723 /* NSNotificationCenter+TS.swift in Sources */,
 				D4F869261C7D51E50046D723 /* NSTimer+TS.swift in Sources */,
+				D46FF3991C9D8A2900F00BB0 /* ZoomImageScrollView.swift in Sources */,
 				D4F869701C7D56770046D723 /* FormViewController.swift in Sources */,
 				D4F869711C7D56770046D723 /* FormBaseCell.swift in Sources */,
 				D4F869781C7D56770046D723 /* FormSwicthCell.swift in Sources */,
