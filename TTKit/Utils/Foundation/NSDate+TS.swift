@@ -187,6 +187,33 @@ extension NSDate{
         return (g.formatter?.stringFromDate(self))!
     }
     
+    func stringInRange()->String{
+        
+        var localDateString = self.stringWithISOFormat()
+
+        var distance = NSDate().timeIntervalSinceDate(self)
+        
+        if distance < 0 { distance = 0 }
+        
+        if distance < 60 {
+            localDateString = "\(Int(distance))秒前"
+        }
+        else if (distance < 60 * 60) {
+            distance = distance / 60
+            localDateString = "\(Int(distance))分钟前"
+        }
+        else if (distance < 60 * 60 * 24) {
+            distance = distance / 60 / 60
+            localDateString = "\(Int(distance))小时前"
+        }
+        else if (distance < 60 * 60 * 24 * 7) {
+            distance = distance / 60 / 60 / 24
+            localDateString = "\(Int(distance))天前"
+        }
+        
+        return localDateString
+    }
+    
     //MARK - class func
     
     class func dateWithString(dateString:String,format:String)->NSDate?{
@@ -217,4 +244,5 @@ extension NSDate{
         return (g.formatter?.dateFromString(dateString))!
     }
   
+    
 }
