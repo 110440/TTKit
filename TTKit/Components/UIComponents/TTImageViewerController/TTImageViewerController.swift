@@ -24,6 +24,7 @@ class TTImageViewerItem {
 //MARK:- TTImageViewerController
 class TTImageViewerController : UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate,UIViewControllerTransitioningDelegate{
     
+    var imageViewContentMode = ZoomImageScrollViewContentMode.ScaleToFit
     var imageItems = [TTImageViewerItem]()
     var curCellIndexPath:NSIndexPath?
     
@@ -91,6 +92,7 @@ class TTImageViewerController : UIViewController ,UICollectionViewDataSource,UIC
 
         let item = self.imageItems[indexPath.row]
 
+        cell.scrollView.imageViewContentMode = self.imageViewContentMode
         cell.setImageCellItem(item)
         
         cell.action = {

@@ -46,6 +46,7 @@ class ImageViewerPresentTransition: NSObject, UIViewControllerAnimatedTransition
         //tempView for frame
         let rect = UIScreen.mainScreen().bounds
         let tempView = TTImageViewerCell(frame: CGRect(x: 0, y: 0, width: rect.size.width+tt_pageSpace*2, height: rect.size.height))
+        tempView.scrollView.imageViewContentMode = toViewController.imageViewContentMode
         tempView.scrollView.setImage(snapshotView.image!)
             
         //动画
