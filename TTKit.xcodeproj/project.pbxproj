@@ -35,6 +35,7 @@
 		D4BD6FB71C9EDCD100C8217F /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD6FB61C9EDCD100C8217F /* UIView+Constraint.swift */; };
 		D4CBEB061C990B4A002EDE45 /* UIButton+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CBEB051C990B4A002EDE45 /* UIButton+TT.swift */; };
 		D4CBEB0A1C991523002EDE45 /* LocalNotifycation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CBEB091C991523002EDE45 /* LocalNotifycation.swift */; };
+		D4E1903F1CAE902600E8A583 /* String+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1903E1CAE902600E8A583 /* String+TT.swift */; };
 		D4EF61B91C9BB9C20036D764 /* ImageViewerDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF61B51C9BB9C20036D764 /* ImageViewerDismissTransition.swift */; };
 		D4EF61BA1C9BB9C20036D764 /* ImageViewerPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF61B61C9BB9C20036D764 /* ImageViewerPresentTransition.swift */; };
 		D4EF61BB1C9BB9C20036D764 /* TTImageViewerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF61B71C9BB9C20036D764 /* TTImageViewerCell.swift */; };
@@ -130,6 +131,7 @@
 		D4BD6FB61C9EDCD100C8217F /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
 		D4CBEB051C990B4A002EDE45 /* UIButton+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TT.swift"; sourceTree = "<group>"; };
 		D4CBEB091C991523002EDE45 /* LocalNotifycation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifycation.swift; sourceTree = "<group>"; };
+		D4E1903E1CAE902600E8A583 /* String+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TT.swift"; sourceTree = "<group>"; };
 		D4EF61B51C9BB9C20036D764 /* ImageViewerDismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerDismissTransition.swift; sourceTree = "<group>"; };
 		D4EF61B61C9BB9C20036D764 /* ImageViewerPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerPresentTransition.swift; sourceTree = "<group>"; };
 		D4EF61B71C9BB9C20036D764 /* TTImageViewerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTImageViewerCell.swift; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 			children = (
 				D472181A1C9BDC9F004E88FA /* String+MD5.swift */,
 				D4F868E91C7D51E50046D723 /* Float+TS.swift */,
+				D4E1903E1CAE902600E8A583 /* String+TT.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 				D4F869731C7D56770046D723 /* FormCheckCell.swift in Sources */,
 				D4F869251C7D51E50046D723 /* NSString+TS.swift in Sources */,
 				D407845C1C99641A00051471 /* UITabBarController+TT.swift in Sources */,
+				D4E1903F1CAE902600E8A583 /* String+TT.swift in Sources */,
 				D4BD6FB71C9EDCD100C8217F /* UIView+Constraint.swift in Sources */,
 				D4F8696F1C7D56770046D723 /* FormValidateResult.swift in Sources */,
 				D4F869741C7D56770046D723 /* FormCitySelectCell.swift in Sources */,
