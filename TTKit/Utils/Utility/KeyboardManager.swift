@@ -15,6 +15,8 @@ public class KeyboardManager: NSObject {
     var animateWhenKeyboardAppear:keyboardEvenHandel?
     var animateWhenKeyboardDisappear:keyboardEvenHandel?
     
+    var isKeyboradShowNow:Bool = false
+    
     let notificationCenter = NSNotificationCenter.defaultCenter()
  
     enum EvenType{
@@ -25,8 +27,8 @@ public class KeyboardManager: NSObject {
     override init() {
         super.init()
         //notificationCenter.addObserver(self, selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
-        notificationCenter.addObserver(self, selector: "keyboardWillChangeFrame:", name: UIKeyboardWillChangeFrameNotification, object: nil)
-        notificationCenter.addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillChangeFrame(_:)), name: UIKeyboardWillChangeFrameNotification, object: nil)
+        notificationCenter.addObserver(self, selector:#selector(keyboardWillHide(_:)), name: UIKeyboardWillHideNotification, object: nil)
     }
 
     deinit {
@@ -38,8 +40,14 @@ public class KeyboardManager: NSObject {
         guard UIApplication.sharedApplication().applicationState != .Background else {
             return
         }
-
-        self.handleKeyboard(notification, even: .Show)
+        
+        if isKeyboradShowNow == false{
+            isKeyboradShowNow = true
+            self.handleKeyboard(notification, even: .Show)
+        }else{
+            isKeyboradShowNow = false
+        }
+        
     }
     
     func keyboardWillHide(notification: NSNotification) {
@@ -47,6 +55,7 @@ public class KeyboardManager: NSObject {
         guard UIApplication.sharedApplication().applicationState != .Background else {
             return
         }
+        isKeyboradShowNow = false
         self.handleKeyboard(notification, even: .Hide)
     }
 
@@ -74,7 +83,5 @@ public class KeyboardManager: NSObject {
 
         }
     }
-
-    
 }
 

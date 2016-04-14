@@ -54,25 +54,25 @@ class FormBaseCell: UITableViewCell {
 
 }
 
-extension FormBaseCell {
-    
-    class func fromNib<T : FormBaseCell>(nibNameOrNil: String? = nil) -> T {
-        var view: T?
-        let name: String
-        if let nibName = nibNameOrNil {
-            name = nibName
-        } else {
-            name = "\(T.self)".componentsSeparatedByString(".").last!
-        }
-        let nibViews = NSBundle.mainBundle().loadNibNamed(name, owner: nil, options: nil)
-        for v in nibViews {
-            if let tog = v as? T {
-                view = tog
-            }
-        }
-        return view!
-    }
-}
+//extension FormBaseCell {
+//    
+//    class func fromNib<T : FormBaseCell>(nibNameOrNil: String? = nil) -> T {
+//        var view: T?
+//        let name: String
+//        if let nibName = nibNameOrNil {
+//            name = nibName
+//        } else {
+//            name = "\(T.self)".componentsSeparatedByString(".").last!
+//        }
+//        let nibViews = NSBundle.mainBundle().loadNibNamed(name, owner: nil, options: nil)
+//        for v in nibViews {
+//            if let tog = v as? T {
+//                view = tog
+//            }
+//        }
+//        return view!
+//    }
+//}
 
 //extension FormBaseCell{
 //    

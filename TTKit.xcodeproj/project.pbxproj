@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D407845C1C99641A00051471 /* UITabBarController+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D407845B1C99641A00051471 /* UITabBarController+TT.swift */; };
 		D42F24071C9653040048273E /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F24061C9653040048273E /* Proposer.swift */; };
+		D450BB251CBBA38F00BC8448 /* UIViewController+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450BB241CBBA38F00BC8448 /* UIViewController+TT.swift */; };
 		D46FF3991C9D8A2900F00BB0 /* ZoomImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FF3981C9D8A2900F00BB0 /* ZoomImageScrollView.swift */; };
 		D472181B1C9BDC9F004E88FA /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472181A1C9BDC9F004E88FA /* String+MD5.swift */; };
 		D4922AF31C9663ED002E2D5A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4922AF21C9663ED002E2D5A /* DesignableButton.swift */; };
@@ -30,6 +31,7 @@
 		D4B51A5C1C81C75E00B53FF9 /* UIGestureRecognizer+ClosureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B51A4F1C81C75E00B53FF9 /* UIGestureRecognizer+ClosureKit.swift */; };
 		D4B51A5D1C81C75E00B53FF9 /* UIImagePickerController+ClosureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B51A501C81C75E00B53FF9 /* UIImagePickerController+ClosureKit.swift */; };
 		D4B51A5E1C81C75E00B53FF9 /* UIWebView+ClosureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B51A511C81C75E00B53FF9 /* UIWebView+ClosureKit.swift */; };
+		D4B795D51CB38DD600279FA5 /* UILabel+TT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B795D41CB38DD600279FA5 /* UILabel+TT.swift */; };
 		D4BD6FB11C9ED17900C8217F /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD6FB01C9ED17900C8217F /* KeyboardManager.swift */; };
 		D4BD6FB31C9ED1BC00C8217F /* UIView+KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD6FB21C9ED1BC00C8217F /* UIView+KeyboardManager.swift */; };
 		D4BD6FB71C9EDCD100C8217F /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD6FB61C9EDCD100C8217F /* UIView+Constraint.swift */; };
@@ -105,6 +107,7 @@
 /* Begin PBXFileReference section */
 		D407845B1C99641A00051471 /* UITabBarController+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+TT.swift"; sourceTree = "<group>"; };
 		D42F24061C9653040048273E /* Proposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposer.swift; sourceTree = "<group>"; };
+		D450BB241CBBA38F00BC8448 /* UIViewController+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TT.swift"; sourceTree = "<group>"; };
 		D46FF3981C9D8A2900F00BB0 /* ZoomImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageScrollView.swift; sourceTree = "<group>"; };
 		D472181A1C9BDC9F004E88FA /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		D4922AF21C9663ED002E2D5A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 		D4B51A4F1C81C75E00B53FF9 /* UIGestureRecognizer+ClosureKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+ClosureKit.swift"; sourceTree = "<group>"; };
 		D4B51A501C81C75E00B53FF9 /* UIImagePickerController+ClosureKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+ClosureKit.swift"; sourceTree = "<group>"; };
 		D4B51A511C81C75E00B53FF9 /* UIWebView+ClosureKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+ClosureKit.swift"; sourceTree = "<group>"; };
+		D4B795D41CB38DD600279FA5 /* UILabel+TT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+TT.swift"; sourceTree = "<group>"; };
 		D4BD6FB01C9ED17900C8217F /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		D4BD6FB21C9ED1BC00C8217F /* UIView+KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+KeyboardManager.swift"; sourceTree = "<group>"; };
 		D4BD6FB61C9EDCD100C8217F /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
@@ -393,6 +397,7 @@
 		D4F868EA1C7D51E50046D723 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D4B795D41CB38DD600279FA5 /* UILabel+TT.swift */,
 				D4B157B41C95468700FE98EA /* UIApplication+TT.swift */,
 				D4B157B61C954C4F00FE98EA /* UIColor+TT.swift */,
 				D4B157B81C95537800FE98EA /* UIDevice+TT.swift */,
@@ -403,6 +408,7 @@
 				D4CBEB051C990B4A002EDE45 /* UIButton+TT.swift */,
 				D407845B1C99641A00051471 /* UITabBarController+TT.swift */,
 				D4BD6FB21C9ED1BC00C8217F /* UIView+KeyboardManager.swift */,
+				D450BB241CBBA38F00BC8448 /* UIViewController+TT.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -654,6 +660,7 @@
 				D4B51A591C81C75E00B53FF9 /* NSTimer+ClosureKit.swift in Sources */,
 				D4F869211C7D51E50046D723 /* NSArray+TS.swift in Sources */,
 				D4F869671C7D56770046D723 /* FormBuilder.swift in Sources */,
+				D450BB251CBBA38F00BC8448 /* UIViewController+TT.swift in Sources */,
 				D4F810021C9841FF0071C794 /* TTAnimate.swift in Sources */,
 				D4B51A5A1C81C75E00B53FF9 /* UIBarButtonItem+ClosureKit.swift in Sources */,
 				D4EF61BC1C9BB9C20036D764 /* TTImageViewerController.swift in Sources */,
@@ -687,6 +694,7 @@
 				D4B157B91C95537800FE98EA /* UIDevice+TT.swift in Sources */,
 				D4F8692C1C7D51E50046D723 /* UIEdgeInsets+TS.swift in Sources */,
 				D4F869691C7D56770046D723 /* FormDataDelegate.swift in Sources */,
+				D4B795D51CB38DD600279FA5 /* UILabel+TT.swift in Sources */,
 				D4CBEB061C990B4A002EDE45 /* UIButton+TT.swift in Sources */,
 				D4F6F42F1C959A7C0060D4CC /* NSTimer+CirCleView.swift in Sources */,
 				D4F869811C7D5A4C0046D723 /* WeChatViewController.swift in Sources */,
